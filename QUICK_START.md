@@ -9,6 +9,8 @@ cd QAAutoMasterKlass
 
 # 2. Установить зависимости  
 pip install -r requirements.txt
+# Или если не работает pip:
+pip3 install -r requirements.txt
 
 # 3. Проверить систему (рекомендуется)
 python3 check_system.py
@@ -145,6 +147,8 @@ ls -la  # Должны видеть requirements.txt
 
 # Переустановить зависимости
 pip install -r requirements.txt
+# Или если не работает pip:
+pip3 install -r requirements.txt
 ```
 
 ### API недоступно

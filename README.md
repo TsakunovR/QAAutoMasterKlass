@@ -153,6 +153,8 @@ cd QAAutoMasterKlass
 ### 2. Установите зависимости
 ```bash
 pip install -r requirements.txt
+# Или если не работает pip:
+pip3 install -r requirements.txt
 ```
 
 ### 3. Проверьте готовность системы (рекомендуется)
@@ -273,6 +275,8 @@ curl https://swagger.rv-school.ru/api/v3/store/inventory
 ### 2. Проверьте установленные зависимости
 ```bash
 pip list | grep -E "(pytest|requests)"
+# Или:
+pip3 list | grep -E "(pytest|requests)"
 ```
 
 ### 3. Запустите тесты с подробным выводом
